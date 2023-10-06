@@ -506,9 +506,11 @@ img {
 
 .footer-form-btn {
   display: flex;
-  gap: 16px;
   align-items: center;
+  justify-content: center;
   padding: 8px 24px;
+  min-width: 165px;
+  height: 40px;
   color: #fff;
   text-align: center;
   /* Button Text */
@@ -519,6 +521,12 @@ img {
 
   border-radius: 4px;
   background-color: #4d5ae5;
+  cursor: pointer;
+  border: none;
+}
+
+.footer-btn-icon {
+  margin-left: 16px;
 }
 
 /* ========= MODAL WINDOW ========== */
