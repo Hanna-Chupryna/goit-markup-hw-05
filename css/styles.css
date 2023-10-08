@@ -745,18 +745,13 @@ img {
 }
 
 .check-text-box {
-  display: inline-flex;
-}
-
-.check-text-box {
-  display: inline-flex;
+  display: block;
   width: 16px;
   height: 16px;
-  /* background-color: #2e2f42; */
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   margin-right: 8px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
